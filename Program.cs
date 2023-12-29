@@ -121,7 +121,6 @@ namespace Rainbow_School
             foreach (var student in students)
             {
                 Console.WriteLine($"{student.Name.PadRight(columnWidth)} {student.Class}");
-                //Console.WriteLine($"{student.Name},\t\t {student.Class}");
             }
             Console.WriteLine();
         }
